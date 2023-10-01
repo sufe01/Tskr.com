@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&display=swap');
+
+* {
+    font-family: 'DM Sans', sans-serif;
+}
+
+nav .container ul {
+    list-style: none;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+nav .container ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+main {
+    height: 80vh;
+}
+
+main p {
+    border-radius: 4px;
+    font-size: 24px;
+}
+
+main .buttons .btn-white {
+    background: #fff;
+}
+
+main .buttons .btn-green {
+    background: #5bbb7b;
+    color: #fff;
+}
+
+main .buttons .btn {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.10);
+    transition: 0.4s;
+}
+
+main .buttons .btn:hover {
+    filter: brightness(1.1);
+}
+
+button.navbar-toggler{
+    display: none;
+}
+
+
+@media(max-width:768px){
+    .navbar-2 ul{
+        display: none !important;
+    }  
+    button.navbar-toggler{
+        display: block;
+        right: 40px;
+        top: 40px;
+    }
+    main > div.w-50{
+        width: 100% !important;
+    }
+}
+/* __________Modal___________ */
+.contact-modal .modal-dialog .modal-content * {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-modal .modal-dialog .modal-content {
+    background: #5bbb7b;
+    overflow: hidden;
+    border: 0;
+    color: #fff;
+    border-radius: 20px !important;
+    position: relative;
+}
+
+.contact-modal .modal-dialog .modal-content h2 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.contact-modal .modal-dialog .modal-content p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.60px;
+    word-wrap: break-word
+}
+
+.contact-modal .modal-dialog .modal-content .input-email {
+    background: #fff;
+    width: 80%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.contact-modal .modal-dialog .modal-content .input-email input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: 0;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.contact-modal .modal-dialog .modal-content .input-email button {
+    height: 100%;
+    outline: none;
+    border: 0;
+    padding: 10px 30px;
+    background: #fbf7ed;
+}
+
+.contact-modal .modal-dialog .modal-content .close-btn {
+    position: absolute;
+    top: 20px;
+    width: 20px;
+    cursor: pointer;
+    right: 20px;
+}
+
+/* -------About-Tskr--------- */
+.modal-header-center {
+    justify-content: center !important;
+    position: relative;
+}
+
+.modal-header-center .btn-close {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.about_tskr-modal .modal-body h5 {
+    color: #222;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 30px;
+    word-wrap: break-word
+}
+
+.about_tskr-modal .modal-body p {
+    color: #222222;
+    font-size: 15px;
+    font-family: DM Sans;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word
+}
+
+.about_tskr-modal .modal-body .list .row ul {
+    list-style: none;
+}
+
+.about_tskr-modal .modal-body .list .row ul li {
+    background: url(../images/tick.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    line-height: 2;
+    color: #000;
+}
+
+.about_tskr-modal .modal-body .share-sci a {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.about_tskr-modal .modal-body .share-sci a:hover {
+    background: #ccc;
+}
+
+
+.about_tskr-modal .modal-body .posted-by .p {
+    margin-left: 6.5rem;
+}
+
+.about_tskr-modal .modal-body .prev-next .prev,
+.about_tskr-modal .modal-body .prev-next .next,
+.about_tskr-modal .modal-body .comment .com .like,
+.about_tskr-modal .modal-body .comment .com .d-like {
+    cursor: pointer;
+}
+
+.about_tskr-modal .modal-body .rev-btn button {
+    background: rgba(91, 187, 123, 0.1);
+    border: 0;
+    color: #5bbb7b;
+    padding: 10px 40px;
+    transition: 0.4s;
+}
+
+.about_tskr-modal .modal-body .rev-btn button:hover{
+    filter: brightness(1.2);
+}
+
+.about_tskr-modal .modal-body .add-rev form label {
+    display: block;
+    margin: 10px 0;
+}
+
+.about_tskr-modal .modal-body .add-rev form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.about_tskr-modal .modal-body .add-rev form .check input {
+    width: 20px;
+    border-radius: 20px;
+}
+
+.about_tskr-modal .modal-body .add-rev form .rev-btn button {
+    background: #5BBB7B;
+    color: #fff;
+}
+
+.about_tskr-modal .modal-body .ustheme .col-4 {
+    width: 25%;
+}
+@media(min-width: 768px){
+    .navbar-1{
+        display: none;
+    }
+}
+
+@media(max-width: 1200px){
+    .about_tskr-modal .modal-body .ustheme .col-4 {
+        width: 50%;
+    }
+
+    .contact-modal .modal-dialog .modal-content .person-img{
+        display: none;   
+    }
+    
+    .contact-modal .modal-dialog .modal-content .col-7{
+        padding: 30px;
+        width: 100% !important;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .contact-modal .modal-dialog .modal-content .col-7 form .input-email{
+        width: 100%;
+    }
+}
+@media(max-width: 992px){   
+    .about_tskr-modal .modal-body .ustheme .col-4 {
+        width: 100%;
+    }
+    .about_tskr-modal .modal-body .prev-next .prev{
+        padding: 10px;
+    }
+    .about_tskr-modal .modal-body .prev-next .next{
+        border-left: 2px solid #000;
+        padding: 10px;
+    }
+    
+    .news-modal .cards .web-card{
+        padding: 10px 0;
+        border-bottom: 2px solid #222;
+    }
+    .news-modal .cards .web-card .d-flex{
+        flex-direction: column;
+    }
+    .news-modal .cards .web-card .d-flex .img-1{
+        height: 250px;
+        width: 100%;
+    }
+}
+
+.about_tskr-modal .modal-body .ustheme .icon {
+    scale: 1.1;
+}
+
+.about_tskr-modal .modal-body .faq-btns .buttons{
+    background: #ffede8;
+    padding: 10px 50px;
+    border-radius: 30px;
+}
+
+.about_tskr-modal .modal-body .faq-btns .buttons button{
+    border: 0;
+    outline: none;
+    background: transparent;
+    padding: 8px 35px;
+    border-radius: 20px;
+    transition: 0.4s;
+    margin: 8px;
+    color: #000 !important;
+}
+
+
+.about_tskr-modal .modal-body .faq-btns .buttons button.active{
+    background: #fff;
+    color: #000 !important;
+}
+
+.about_tskr-modal .modal-body .faq-btns .buttons button.bg-white,
+.about_tskr-modal .modal-body .faq-btns .buttons button:hover{
+    background: #fff;   
+}
+
+@media(max-width: 992px){
+    .about_tskr-modal .modal-body .faq-btns .buttons ul{
+        flex-direction: column;
+        display: flex;
+    }
+}
+
+/* faq */
+
+.faq {
+	margin-bottom: 20px;
+	transition: 0.3s all;
+	border-radius: 2px;
+}
+
+.faq_active {
+	margin-bottom: 30px;
+}
+
+.faq__question {
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	min-height: 62px;
+	padding: 10px 35px;
+	transition: 0.3s all;
+	cursor: pointer;
+}
+
+.faq_active {
+	background: #f1fcfa;
+}
+
+.faq__ico {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.faq__ico_m_r {
+	margin-right: 13px;
+}
+
+.faq__ttl {
+	color: #000;
+	font-size: 16px;
+	font-weight: 600;
+	flex-grow: 1;
+}
+
+.faq__close {
+	width: 16px;
+	height: 16px;
+	flex-shrink: 0;
+	position: relative;
+	cursor: pointer;
+}
+
+.faq__close:before {
+	content: "";
+	display: block;
+	height: 2px;
+	background-color: #32325c;
+	position: absolute;
+	top: calc(50% - 1px);
+	left: 0;
+	right: 0;
+	transition: 0.3s all;
+}
+
+.faq_active .faq__close:before {
+	transform: rotate(180deg);
+}
+
+.faq__close:after {
+	content: "";
+	display: block;
+	width: 2px;
+	background-color: #32325c;
+	position: absolute;
+	top: 0;
+	left: calc(50% - 1px);
+	bottom: 0;
+	transition: 0.3s all;
+}
+
+.faq_active .faq__close:after {
+	transform: rotate(180deg);
+	opacity: 0;
+}
+
+.faq__answer {
+	border-radius: 2px;
+	padding: 30px 35px;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	display: none;
+}
+
+.faq__txt {
+	font-weight: 500;
+}
+
+.faq__accent {
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 2px;
+}
+
+
+.modal.fade .modal-dialog{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+
+.modal.fade .modal-dialog.modal-dialog-green{
+    position: relative;
+}

@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
+  <!-- Css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <title>Tskr.com</title>
+</head>
+
+<body style="background: #fbf7ed;">
+
+
+  <!-- side-nav -->
+<nav class="navbar fixed-top navbar-1">
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand" href="#">Offcanvas navbar</a> -->
+    <button class="navbar-toggler position-absolute" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> -->
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" data-bs-toggle="modal" href="#" data-bs-target="#about_tskr">About Tskr</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#us-modal">Us & Theme</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#faqs-modal">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="#" data-bs-toggle="modal" data-bs-target="#news-modal">Newsroom</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#contact" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- nav -->
+  <nav class="navbar navbar-2 mt-4">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/logo.svg" alt="">
+      </a>
+      <ul class="d-flex gap-5">
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#about_tskr">About Tskr</a></li>
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#us-modal">Us & Theme</a></li>
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#faqs-modal">FAQs</a></li>
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#news-modal">Newsroom</a></li>
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Mian -->
+  <main class="d-flex align-items-center">
+    <div class="container text-center w-50">
+      <h1 class="fw-bold display-3">We’re building a better freelancer marketplace.</h1>
+      <p class="my-5">5% flat fee, improved client/freelancer rating system and human mediators. No nonsense.</p>
+      <b class="my-4 fs-5">Coming Soon.</b>
+      <div class="buttons mt-4">
+        <button class="btn fw-bold btn-white mx-2" data-bs-toggle="modal" data-bs-target="#about_tskr">Learn More</button>
+        <button class="btn fw-bold btn-green mx-2"  data-bs-toggle="modal" data-bs-target="#contact">Pre-register</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- footer -->
+  <div class="l-page-footer">
+    <div class="container">
+      <div class="sci d-flex align-items-center gap-4">
+        <span class="fw-bold">Follow Us</span>
+        <a class="p-1" href="https://www.facebook.com"><img src="assets/images/fb.svg"></a>
+        <a class="p-1" href="https://www.twitter.com"><img src="assets/images/tw.svg"></a>
+        <a class="p-1" href="https://www.instagram.com"><img src="assets/images/ig.svg"></a>
+        <a class="p-1" href="https://www.linkedin.com"><img src="assets/images/in.svg"></a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- __________MODALS_________ -->
+
+  <!-- Contact-Modal -->
+  <div class="modal fade contact-modal" id="contact" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-green modal-dialog-centered modal-xl modal-lg">
+      <div class="modal-content">
+
+        <div class="modal-body">
+          <div class="container-fluid">
+            <!-- <button type="button"></button> -->
+
+            <div class="row">
+              <div class="col-5">
+                <img src="assets/images/image-1.svg" alt="" width="400px" class="person-img">
+              </div>
+              <div class="col-7">
+                <form action="" class="d-flex flex-column justify-content-center h-100">
+                  <h2 class="fw-bold">Get notified!</h2>
+                  <p class="my-3">Pre-register and be one of the first to learn when<br> Tskr goes live (and receive a
+                    special bonus at
+                    launch)</p>
+                  <div class="input-email mt-1">
+                    <input type="email" placeholder="Enter your email address">
+                    <button type="submit" class="sub-btn">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+              <img src="assets/images/close-icon.svg" class="close-btn" data-bs-dismiss="modal" aria-label="Close">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <div class="modal fade about_tskr-modal" id="about_tskr" data-bs-backdrop="static" data-bs-keyboard="false"
+    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-xl">
+      <div class="modal-content">
+        <div class="modal-header modal-header-center p-3">
+          <div class="text-center">
+            <h2 class="fw-bold">About Tskr</h2>
+            <p>Give your visitor a smooth online experience with a solid UX design</p>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-5">
+
+          <h5 class="my-3 fw-bold">Bringing the culture of sharing to everyone</h5>
+
+          <p>Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis,
+            at malesuada orci congue. Nullam tempus sollicitudin cursus. Ut et adipiscing erat. Curabitur this is a text
+            link libero tempus congue.
+          </p><br>
+          <p>
+            Duis mattis laoreet neque, et ornare neque sollicitudin at. Proin sagittis dolor sed mi elementum pretium.
+            Donec et justo ante. Vivamus egestas sodales est, eu rhoncus urna semper eu. Cum sociis natoque penatibus et
+            magnis dis parturient montes, nascetur ridiculus mus. Integer tristique elit lobortis purus bibendum, quis
+            dictum metus mattis. Phasellus posuere felis sed eros porttitor mattis. Curabitur massa magna, tempor in
+            blandit id, porta in ligula. Aliquam laoreet nisl massa, at interdum mauris sollicitudin et.
+          </p>
+
+          <div style="background: #ffede8;" class="border-start border-4 border-dark p-5 my-5">
+            <p><i>Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh
+                facilisis, at malesuada orci congue.</i></p>
+            <div class="text fw-bold fs-5">
+              Luis Pickford
+            </div>
+          </div>
+
+          <div class="list">
+            <h5 class="my-4">What you'll learn</h5>
+            <div class="row mb-4">
+              <div class="col-6">
+                <ul>
+                  <li>Become a UI/UX designer.</li>
+                  <li>You will be able to start earning money Figma skills.</li>
+                  <li>Build a UI project from beginning to end.</li>
+                  <li>Work with colors & fonts.</li>
+                  <li>You will create your own UI Kit.</li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul>
+                  <li>Build & test a complete mobile app.</li>
+                  <li>Learn to design mobile apps & websites.</li>
+                  <li>Design 3 different logos.</li>
+                  <li>Create low-fidelity wireframe.</li>
+                  <li>Downloadable exercise files.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="image">
+            <img src="assets/images/image-2.svg" class="img-fluid rounded" width="100%">
+          </div>
+
+          <div class="my-4">
+            <h5>Requirements</h5>
+
+            <ul class="lh-lg">
+              <li class="my-3">We do not require any previous experience or pre-defined skills to take this course. A
+                great
+                orientation would be enough
+                to master UI/UX design.</li>
+              <li class="my-3">A computer with a good internet connection.</li>
+              <li class="my-3">Adobe Photoshop (OPTIONAL)</li>
+            </ul>
+          </div>
+
+          <!-- share-post -->
+          <div class="border border-end-0 border-start-0 border-3 border-secondary-subtle py-5 ps-3">
+            <div class="d-flex align-items-center gap-4 share-sci">
+              <span class="">Share this post</span>
+              <a class="p-1" href="https://www.facebook.com"><img src="assets/images/fb.svg"></a>
+              <a class="p-1" href="https://www.twitter.com"><img src="assets/images/tw.svg"></a>
+              <a class="p-1" href="https://www.instagram.com"><img src="assets/images/ig.svg"></a>
+              <a class="p-1" href="https://www.linkedin.com"><img src="assets/images/in.svg"></a>
+            </div>
+          </div>
+
+          <div class="posted-by py-4">
+            <div class="d-flex gap-4">
+              <img src="assets/images/image-3.svg" style="width: 80px;">
+              <div class="name">
+                <h5>Brooklyn Simmons</h5>
+                <p>Medical Assistant</p>
+              </div>
+            </div>
+            <p class="p">Etiam vitae leo et diam pellentesque porta. Sed eleifend ultricies risus, vel rutrum erat
+              commodo ut.
+              Praesent finibus congue euismod. Nullam scelerisque massa vel augue placerat, a tempor sem egestas. ,<br>
+              Curabitur placerat finibus lacus.</p>
+          </div>
+
+          <div
+            class="prev-next container-fluid border border-end-0 border-start-0 border-3 border-secondary-subtle py-5">
+            <div class="d-flex justify-content-between">
+              <div class="prev">
+                <h5><img src="assets/images/prev-icon.svg"> Previous Post</h5>
+                <p>Given Set was without from god divide rule Hath</p>
+              </div>
+              <div class="next text-end">
+                <h5 class="">Next Post <img src="assets/images/next-icon.svg"></h5>
+                <p>Tree earth fowl given moveth deep lesser After</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- reviews -->
+          <div class="py-5">
+            <h4>80 Reviews</h4>
+
+            <div class="comment py-4">
+              <div class="container-fluid">
+                <div class="d-flex gap-4 align-items-start">
+                  <img src="assets/images/image-4.svg">
+                  <div>
+                    <h6>Ali Tufan</h6>
+                    <p>Published 2 months ago</p>
+                  </div>
+                </div>
+              </div>
+              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour, or randomised words which don't look even slightly
+                believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                embarrassing hidden in the middle of text.
+              </p>
+
+              <div class="com">
+                <div class="container-fluid">
+                  <div class="d-flex gap-4">
+                    <div class="like d-flex align-items-center gap-2">
+                      <img src="assets/images/like.svg"> Helpful
+                    </div>
+                    <div class="d-like d-flex align-items-center gap-2">
+                      Not helpful <img src="assets/images/dislike.svg">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="comment py-4">
+              <div class="container-fluid">
+                <div class="d-flex gap-4 align-items-start">
+                  <img src="assets/images/image-4.svg">
+                  <div>
+                    <h6>Ali Tufan</h6>
+                    <p>Published 2 months ago</p>
+                  </div>
+                </div>
+              </div>
+              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour, or randomised words which don't look even slightly
+                believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                embarrassing hidden in the middle of text.
+              </p>
+
+              <div class="com">
+                <div class="container-fluid">
+                  <div class="d-flex gap-4">
+                    <div class="like d-flex align-items-center gap-2">
+                      <img src="assets/images/like.svg"> Helpful
+                    </div>
+                    <div class="d-like d-flex align-items-center gap-2">
+                      Not helpful <img src="assets/images/dislike.svg">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="rev-btn">
+              <button>See More <img src="assets/images/right-up.svg"></button>
+            </div>
+          </div>
+
+          <!-- add-review -->
+          <div
+            class="add-rev border border-end-0 border-start-0 border-bottom-0 border-3 border-secondary-subtle py-5 ps-3">
+            <h5 class="fs-5">Add a Review</h5>
+            <p class="my-4">Your email address will not be published. Required fields are marked *</p>
+
+            <form action="">
+              <h6>Comment</h6>
+              <textarea rows="10" class="w-100 border border-2 rounded rounded-3 p-3" style="resize: none;"></textarea>
+
+              <div class="container-fluid">
+                <div class="d-flex row align-items-center">
+                  <div class="col-md-6">
+                    <label for="">Name</label>
+                    <input type="text" placeholder="Ali Tufan">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="">Email</label>
+                    <input type="email" placeholder="ali.tufan@gmail.com">
+                  </div>
+                </div>
+                <div class="check d-flex py-3">
+                  <input type="checkbox"> <span class="ms-3"> Save my name, email, and website in this browser for the
+                    next time I comment.</span>
+                </div>
+              </div>
+              <div class="rev-btn">
+                <button>Send <img src="assets/images/right-up-white.svg"></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- us & theme -->
+  <div class="modal fade about_tskr-modal us-modal" id="us-modal" data-bs-backdrop="static" data-bs-keyboard="false"
+    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-xl">
+      <div class="modal-content">
+        <div class="modal-header modal-header-center p-4">
+          <div class="text-center">
+            <h2 class="fw-bold">Us & Them</h2>
+            <p>Give your visitor a smooth online experience with a solid UX design</p>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-5">
+
+          <h5 class="my-3 fw-bold">Bringing the culture of sharing to everyone</h5>
+
+          <p>Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis,
+            at malesuada orci congue. Nullam tempus sollicitudin cursus. Ut et adipiscing erat. Curabitur this is a text
+            link libero tempus congue.
+          </p><br>
+          <p>
+            Duis mattis laoreet neque, et ornare neque sollicitudin at. Proin sagittis dolor sed mi elementum pretium.
+            Donec et justo ante. Vivamus egestas sodales est, eu rhoncus urna semper eu. Cum sociis natoque penatibus et
+            magnis dis parturient montes, nascetur ridiculus mus. Integer tristique elit lobortis purus bibendum, quis
+            dictum metus mattis. Phasellus posuere felis sed eros porttitor mattis. Curabitur massa magna, tempor in
+            blandit id, porta in ligula. Aliquam laoreet nisl massa, at interdum mauris sollicitudin et.
+          </p>
+
+          <div style="background: #ffede8;" class="border-start border-4 border-dark p-5 my-5">
+            <p><i>Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh
+                facilisis, at malesuada orci congue.</i></p>
+            <div class="text fw-bold fs-5">
+              Luis Pickford
+            </div>
+          </div>
+
+          <div class="list">
+            <h5 class="my-4">What you'll learn</h5>
+            <div class="row mb-4">
+              <div class="col-6">
+                <ul>
+                  <li>Become a UI/UX designer.</li>
+                  <li>You will be able to start earning money Figma skills.</li>
+                  <li>Build a UI project from beginning to end.</li>
+                  <li>Work with colors & fonts.</li>
+                  <li>You will create your own UI Kit.</li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul>
+                  <li>Build & test a complete mobile app.</li>
+                  <li>Learn to design mobile apps & websites.</li>
+                  <li>Design 3 different logos.</li>
+                  <li>Create low-fidelity wireframe.</li>
+                  <li>Downloadable exercise files.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="image">
+            <img src="assets/images/image-2.svg" class="img-fluid rounded" width="100%">
+          </div>
+
+          <div class="my-4">
+            <h5>Requirements</h5>
+
+            <ul class="lh-lg">
+              <li class="my-3">We do not require any previous experience or pre-defined skills to take this course. A
+                great
+                orientation would be enough
+                to master UI/UX design.</li>
+              <li class="my-3">A computer with a good internet connection.</li>
+              <li class="my-3">Adobe Photoshop (OPTIONAL)</li>
+            </ul>
+          </div>
+
+          <!-- share-post -->
+          <div class="border border-end-0 border-start-0 border-3 border-secondary-subtle py-5 ps-3">
+            <div class="d-flex align-items-center gap-4 share-sci">
+              <span class="">Share this post</span>
+              <a class="p-1" href="https://www.facebook.com"><img src="assets/images/fb.svg"></a>
+              <a class="p-1" href="https://www.twitter.com"><img src="assets/images/tw.svg"></a>
+              <a class="p-1" href="https://www.instagram.com"><img src="assets/images/ig.svg"></a>
+              <a class="p-1" href="https://www.linkedin.com"><img src="assets/images/in.svg"></a>
+            </div>
+          </div>
+
+          <div class="posted-by py-4">
+            <div class="d-flex gap-4">
+              <img src="assets/images/image-3.svg" style="width: 80px;">
+              <div class="name">
+                <h5>Brooklyn Simmons</h5>
+                <p>Medical Assistant</p>
+              </div>
+            </div>
+            <p class="p">Etiam vitae leo et diam pellentesque porta. Sed eleifend ultricies risus, vel rutrum erat
+              commodo ut.
+              Praesent finibus congue euismod. Nullam scelerisque massa vel augue placerat, a tempor sem egestas. ,<br>
+              Curabitur placerat finibus lacus.</p>
+          </div>
+
+          <div
+            class="prev-next container-fluid border border-end-0 border-start-0 border-3 border-secondary-subtle py-5">
+            <div class="d-flex justify-content-between">
+              <div class="prev">
+                <h5><img src="assets/images/prev-icon.svg"> Previous Post</h5>
+                <p>Given Set was without from god divide rule Hath</p>
+              </div>
+              <div class="next text-end">
+                <h5 class="">Next Post <img src="assets/images/next-icon.svg"></h5>
+                <p>Tree earth fowl given moveth deep lesser After</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- reviews -->
+          <div class="py-5">
+            <h4>80 Reviews</h4>
+
+            <div class="comment py-4">
+              <div class="container-fluid">
+                <div class="d-flex gap-4 align-items-start">
+                  <img src="assets/images/image-4.svg">
+                  <div>
+                    <h6>Ali Tufan</h6>
+                    <p>Published 2 months ago</p>
+                  </div>
+                </div>
+              </div>
+              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour, or randomised words which don't look even slightly
+                believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                embarrassing hidden in the middle of text.
+              </p>
+
+              <div class="com">
+                <div class="container-fluid">
+                  <div class="d-flex gap-4">
+                    <div class="like d-flex align-items-center gap-2">
+                      <img src="assets/images/like.svg"> Helpful
+                    </div>
+                    <div class="d-like d-flex align-items-center gap-2">
+                      Not helpful <img src="assets/images/dislike.svg">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="comment py-4">
+              <div class="container-fluid">
+                <div class="d-flex gap-4 align-items-start">
+                  <img src="assets/images/image-4.svg">
+                  <div>
+                    <h6>Ali Tufan</h6>
+                    <p>Published 2 months ago</p>
+                  </div>
+                </div>
+              </div>
+              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour, or randomised words which don't look even slightly
+                believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                embarrassing hidden in the middle of text.
+              </p>
+
+              <div class="com">
+                <div class="container-fluid">
+                  <div class="d-flex gap-4">
+                    <div class="like d-flex align-items-center gap-2">
+                      <img src="assets/images/like.svg"> Helpful
+                    </div>
+                    <div class="d-like d-flex align-items-center gap-2">
+                      Not helpful <img src="assets/images/dislike.svg">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="rev-btn">
+              <button>See More <img src="assets/images/right-up.svg"></button>
+            </div>
+          </div>
+
+          <!-- us-&-theme-->
+          <div class="ustheme container-fluid ">
+            <div class="row">
+              <div class="col-4 d-flex gap-4">
+                <img class="icon" src="assets/images/icon-1.svg" alt="">
+                <div>
+                  <h6>Date Posted</h6>
+                  <p>Posted 1 days ago</p>
+                </div>
+              </div>
+
+              <div class="col-4 d-flex gap-4">
+                <img class="icon" src="assets/images/icon-2.svg" alt="">
+                <div>
+                  <h6>Location</h6>
+                  <p>London, UK</p>
+                </div>
+              </div>
+
+              <div class="col-4 d-flex gap-4">
+                <img class="icon" src="assets/images/icon-3.svg" alt="">
+                <div>
+                  <h6>Hours</h6>
+                  <p>50h / week</p>
+                </div>
+              </div>
+
+              <div class="col-4 d-flex gap-4">
+                <img class="icon" src="assets/images/icon-4.svg" alt="">
+                <div>
+                  <h6>Salary</h6>
+                  <p>$35 - $45k</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="h-50"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQs -->
+  <div class="modal fade about_tskr-modal us-modal" id="faqs-modal" data-bs-backdrop="static" data-bs-keyboard="false"
+    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-xl">
+      <div class="modal-content">
+        <div class="modal-header modal-header-center p-4">
+          <div class="text-center">
+            <h2 class="fw-bold">Frequently Asked Questions</h2>
+            <p>Give your visitor a smooth online experience with a solid UX design</p>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-5">
+          <div class="d-flex justify-content-center faq-btns gap-4 align-items-center">
+            <div class="buttons">
+              <ul class="nav nav-pills" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+              </li>
+              </ul>
+              <!-- <button>For Everyone</button> -->
+              <!-- <button class="bg-white">For Client</button> -->
+              <!-- <button>For Freelancers</button> -->
+            </div>
+          </div>
+
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+              
+              <div class="faq_all_one">
+            <div class="faq-outer py-4">
+            <h5 class="my-3 fw-bold">Payments</h5>
+
+            <div class="my-faq">
+              <div class="faq-list">
+    <div class="faq faq_active">
+      <div class="faq__question">
+
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: block;">
+        <div class="faq__txt">
+  Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div> <!-- END  faq -->
+
+    <div class="faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div>
+    <!-- END  faq -->
+  <div class="faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="bg-faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            </div>
+
+            <div class="faq-outer py-4">
+              <h5 class="my-3 fw-bold mt-4">Suggestions</h5>
+
+              <div class="my-faq">
+                <div class="faq-list">
+      <div class="faq faq_active">
+        <div class="faq__question">
+
+          <div class="faq__ttl">What methods of payments are supported?</div>
+          <div class="faq__close"></div>
+        </div>
+        <div class="faq__answer" style="display: block;">
+          <div class="faq__txt">
+    Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+          </div>
+        </div>
+      </div> <!-- END  faq -->
+
+      <div class="faq">
+        <div class="faq__question">
+          <div class="faq__ttl">What methods of payments are supported?</div>
+          <div class="faq__close"></div>
+        </div>
+        <div class="faq__answer" style="display: none;">
+          <div class="faq__txt">
+            Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+          </div>
+        </div>
+      </div>
+      <!-- END  faq -->
+    <div class="faq">
+        <div class="faq__question">
+          <div class="faq__ttl">What methods of payments are supported?</div>
+          <div class="faq__close"></div>
+        </div>
+        <div class="faq__answer" style="display: none;">
+          <div class="faq__txt">
+            Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+          </div>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="bg-faq">
+        <div class="faq__question">
+          <div class="faq__ttl">What methods of payments are supported?</div>
+          <div class="faq__close"></div>
+        </div>
+        <div class="faq__answer" style="display: none;">
+          <div class="faq__txt">
+            Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="faq__question">
+          <div class="faq__ttl">What methods of payments are supported?</div>
+          <div class="faq__close"></div>
+        </div>
+        <div class="faq__answer" style="display: none;">
+          <div class="faq__txt">
+            Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+          </div>
+        </div>
+      </div>
+    </div>
+              </div>
+            </div>
+
+            <div class="faq-outer py-4">
+            <h5 class="my-3 fw-bold mt-4">Suggestions</h5>
+
+            <div class="my-faq">
+              <div class="faq-list">
+    <div class="faq faq_active">
+      <div class="faq__question">
+
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: block;">
+        <div class="faq__txt">
+  Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div> <!-- END  faq -->
+
+    <div class="faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div>
+    <!-- END  faq -->
+  <div class="faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="bg-faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                <div class="faq_all_one">
+            <div class="faq-outer py-4">
+            <h5 class="my-3 fw-bold">Payments FAQs# 2</h5>
+
+            <div class="my-faq">
+              <div class="faq-list">
+    <div class="faq faq_active">
+      <div class="faq__question">
+
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: block;">
+        <div class="faq__txt">
+  Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div> <!-- END  faq -->
+
+    <div class="faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div>
+    <!-- END  faq -->
+  <div class="faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="bg-faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            </div>
+
+            <div class="faq-outer py-4">
+              <h5 class="my-3 fw-bold mt-4">Suggestions</h5>
+
+              <div class="my-faq">
+                <div class="faq-list">
+      <div class="faq faq_active">
+        <div class="faq__question">
+
+          <div class="faq__ttl">What methods of payments are supported?</div>
+          <div class="faq__close"></div>
+        </div>
+        <div class="faq__answer" style="display: block;">
+          <div class="faq__txt">
+    Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+          </div>
+        </div>
+      </div> <!-- END  faq -->
+
+      <div class="faq">
+        <div class="faq__question">
+          <div class="faq__ttl">What methods of payments are supported?</div>
+          <div class="faq__close"></div>
+        </div>
+        <div class="faq__answer" style="display: none;">
+          <div class="faq__txt">
+            Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+          </div>
+        </div>
+      </div>
+      <!-- END  faq -->
+    <div class="faq">
+        <div class="faq__question">
+          <div class="faq__ttl">What methods of payments are supported?</div>
+          <div class="faq__close"></div>
+        </div>
+        <div class="faq__answer" style="display: none;">
+          <div class="faq__txt">
+            Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+          </div>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="bg-faq">
+        <div class="faq__question">
+          <div class="faq__ttl">What methods of payments are supported?</div>
+          <div class="faq__close"></div>
+        </div>
+        <div class="faq__answer" style="display: none;">
+          <div class="faq__txt">
+            Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="faq__question">
+          <div class="faq__ttl">What methods of payments are supported?</div>
+          <div class="faq__close"></div>
+        </div>
+        <div class="faq__answer" style="display: none;">
+          <div class="faq__txt">
+            Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+          </div>
+        </div>
+      </div>
+    </div>
+              </div>
+            </div>
+
+            <div class="faq-outer py-4">
+            <h5 class="my-3 fw-bold mt-4">Suggestions</h5>
+
+            <div class="my-faq">
+              <div class="faq-list">
+    <div class="faq faq_active">
+      <div class="faq__question">
+
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: block;">
+        <div class="faq__txt">
+  Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div> <!-- END  faq -->
+
+    <div class="faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div>
+    <!-- END  faq -->
+  <div class="faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="bg-faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+               <div class="faq_all_one">
+            <div class="faq-outer py-4">
+            <h5 class="my-3 fw-bold">Payments FAQs# 3</h5>
+
+            <div class="my-faq">
+              <div class="faq-list">
+    <div class="faq faq_active">
+      <div class="faq__question">
+
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: block;">
+        <div class="faq__txt">
+  Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div> <!-- END  faq -->
+
+    <div class="faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div>
+    <!-- END  faq -->
+  <div class="faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="bg-faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            </div>
+
+            <div class="faq-outer py-4">
+              <h5 class="my-3 fw-bold mt-4">Suggestions</h5>
+
+              <div class="my-faq">
+                <div class="faq-list">
+      <div class="faq faq_active">
+        <div class="faq__question">
+
+          <div class="faq__ttl">What methods of payments are supported?</div>
+          <div class="faq__close"></div>
+        </div>
+        <div class="faq__answer" style="display: block;">
+          <div class="faq__txt">
+    Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+          </div>
+        </div>
+      </div> <!-- END  faq -->
+
+      <div class="faq">
+        <div class="faq__question">
+          <div class="faq__ttl">What methods of payments are supported?</div>
+          <div class="faq__close"></div>
+        </div>
+        <div class="faq__answer" style="display: none;">
+          <div class="faq__txt">
+            Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+          </div>
+        </div>
+      </div>
+      <!-- END  faq -->
+    <div class="faq">
+        <div class="faq__question">
+          <div class="faq__ttl">What methods of payments are supported?</div>
+          <div class="faq__close"></div>
+        </div>
+        <div class="faq__answer" style="display: none;">
+          <div class="faq__txt">
+            Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+          </div>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="bg-faq">
+        <div class="faq__question">
+          <div class="faq__ttl">What methods of payments are supported?</div>
+          <div class="faq__close"></div>
+        </div>
+        <div class="faq__answer" style="display: none;">
+          <div class="faq__txt">
+            Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="faq">
+        <div class="faq__question">
+          <div class="faq__ttl">What methods of payments are supported?</div>
+          <div class="faq__close"></div>
+        </div>
+        <div class="faq__answer" style="display: none;">
+          <div class="faq__txt">
+            Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+          </div>
+        </div>
+      </div>
+    </div>
+              </div>
+            </div>
+
+            <div class="faq-outer py-4">
+            <h5 class="my-3 fw-bold mt-4">Suggestions</h5>
+
+            <div class="my-faq">
+              <div class="faq-list">
+    <div class="faq faq_active">
+      <div class="faq__question">
+
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: block;">
+        <div class="faq__txt">
+  Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div> <!-- END  faq -->
+
+    <div class="faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div>
+    <!-- END  faq -->
+  <div class="faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="bg-faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="faq__question">
+        <div class="faq__ttl">What methods of payments are supported?</div>
+        <div class="faq__close"></div>
+      </div>
+      <div class="faq__answer" style="display: none;">
+        <div class="faq__txt">
+          Cras vitae ac nunc orci. Purus amet tortor non at phasellus ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus, scelerisque volutpat nec sit vel donec. Sagittis, id volutpat erat vel. 
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            </div>
+                </div>
+            </div>
+          </div>
+
+         
+        </div>
+      </div>
+    </div >
+  </div>
+
+  <!-- newsroom -->
+  <div class="modal fade about_tskr-modal news-modal" id="news-modal" data-bs-backdrop="static" data-bs-keyboard="false"
+    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-xl">
+      <div class="modal-content">
+        <div class="modal-header modal-header-center p-4">
+          <div class="text-center">
+            <h2 class="fw-bold">Newsroom</h2>
+            <p>Give your visitor a smooth online experience with a solid UX design</p>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-5">
+          <div class="cards">
+            <div class="web-card my-4">
+              <div class="d-flex align-items-center gap-5">
+                <img src="assets/images/image-5.svg" class="img-1">
+                <div class="content">
+                  <div class="text-muted">Business</div>
+                  <div class="my-3 h1 fw-bold">Start an online business and work from home</div>
+                  <p style="font-size: 1.1rem;">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>
+                  <div class="author">
+                    <div class="d-flex align-items-center gap-4">
+                      <img src="assets/images/image-3.svg">
+                      <div>
+                         <b>Leslie Alexander</b>
+                        <span class="d-block">December 2, 2022</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             <div class="web-card my-4">
+              <div class="d-flex align-items-center gap-5">
+                <img src="assets/images/image-5.svg" class="img-1">
+                <div class="content">
+                  <div class="text-muted">Business</div>
+                  <div class="my-3 h1 fw-bold">Start an online business and work from home</div>
+                  <p style="font-size: 1.1rem;">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>
+                  <div class="author">
+                    <div class="d-flex align-items-center gap-4">
+                      <img src="assets/images/image-3.svg">
+                      <div>
+                         <b>Leslie Alexander</b>
+                        <span class="d-block">December 2, 2022</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             <div class="web-card my-4">
+              <div class="d-flex align-items-center gap-5">
+                <img src="assets/images/image-5.svg" class="img-1">
+                <div class="content">
+                  <div class="text-muted">Business</div>
+                  <div class="my-3 h1 fw-bold">Start an online business and work from home</div>
+                  <p style="font-size: 1.1rem;">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>
+                  <div class="author">
+                    <div class="d-flex align-items-center gap-4">
+                      <img src="assets/images/image-3.svg">
+                      <div>
+                         <b>Leslie Alexander</b>
+                        <span class="d-block">December 2, 2022</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             <div class="web-card my-4">
+              <div class="d-flex align-items-center gap-5">
+                <img src="assets/images/image-5.svg" class="img-1">
+                <div class="content">
+                  <div class="text-muted">Business</div>
+                  <div class="my-3 h1 fw-bold">Start an online business and work from home</div>
+                  <p style="font-size: 1.1rem;">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>
+                  <div class="author">
+                    <div class="d-flex align-items-center gap-4">
+                      <img src="assets/images/image-3.svg">
+                      <div>
+                         <b>Leslie Alexander</b>
+                        <span class="d-block">December 2, 2022</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery-3.7.1.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
