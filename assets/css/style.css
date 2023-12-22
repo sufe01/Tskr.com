@@ -468,7 +468,7 @@ input[type="checkbox"] {
     accent-color: #5BBB7B;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 992px) {
     .modal.fade .modal-dialog {
         max-width: 100%;
         left: 20px;
